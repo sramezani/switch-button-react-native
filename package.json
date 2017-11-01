@@ -1,0 +1,24 @@
+{
+  "name": "switch-button-react-native",
+  "version": "1.0.0",
+  "description": "Customisable switch button in react native",
+  "main": "SwitchButton.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sramezani/switch-button-react-native.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "switch",
+    "switch-button",
+    "android",
+    "ios",
+    "mobile",
+    "customisable"
+  ],
+  "author": "Siamak Ramezani <siamak.rp@gmail.com>"
+}
