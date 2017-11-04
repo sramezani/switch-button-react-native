@@ -1,6 +1,7 @@
 # switch-button-react-native
 Customisable switch button in react native ( e.g: change view after change  switch button )
 
+![switchbutton](https://user-images.githubusercontent.com/33284430/32404024-3d02ba94-c15d-11e7-8e76-87276dd2ee1a.gif)
 
 
 how to use:
