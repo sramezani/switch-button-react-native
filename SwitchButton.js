@@ -70,11 +70,11 @@ export default class SwitchButton extends Component {
 		onValueChange: () => null
 	};
 
-    constructor() {
+    constructor(props) {
         super();
 
         this.state = {
-          activeSwitch: this.props.defaultValue || 1,
+          activeSwitch: props.defaultValue || 1,
           sbWidth: 100,
           sbHeight: 44,
           direction: 'ltr',
