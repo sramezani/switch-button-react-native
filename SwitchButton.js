@@ -80,6 +80,10 @@ export default class SwitchButton extends Component {
           direction: 'ltr',
           offsetX: new Animated.Value(0)
         };
+		
+		if(this.state.activeSwitch === 2) {
+			this.state.offsetX = new Animated.Value((((this.props.switchWidth || this.state.sbWidth) / 2) - 6) * (direction === 'rtl' ? -1 : 1);
+		}
 
         this._switchDirection = this._switchDirection.bind(this);
     }
