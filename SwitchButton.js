@@ -27,6 +27,7 @@ small example: ...
             <View>
                 <SwitchButton
                     onValueChange={(val) => this.setState({ activeSwitch: val })}      // this is necessary for this component
+					defaultValue={this.state.activeSwitch}					// optional: default value on construct component
                     text1 = 'ON'                        // optional: first text in switch button --- default ON
                     text2 = 'OFF'                       // optional: second text in switch button --- default OFF
                     switchWidth = {100}                 // optional: switch width --- default 44
@@ -73,7 +74,7 @@ export default class SwitchButton extends Component {
         super();
 
         this.state = {
-          activeSwitch: 1,
+          activeSwitch: this.props.defaultValue || 1,
           sbWidth: 100,
           sbHeight: 44,
           direction: 'ltr',
