@@ -14,7 +14,7 @@ to state
 
 3) use:
 
-        <MySwitchButton  
+        <SwitchButton  
               onValueChange={(val) => this.setState({ activeSwitch: val })} 
         /> 
 in your code
@@ -31,7 +31,7 @@ small example: ...
     
     import React, { Component } from 'react'; 
     import { View } from 'react-native'; 
-    import SwitchButton from './mySwitchButton';
+    import SwitchButton from 'switch-button-react-native';
     
     constructor () {
         super();
