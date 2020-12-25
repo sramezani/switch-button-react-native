@@ -112,7 +112,8 @@ export default class SwitchButton extends Component {
                 this.state.offsetX,
                     {
                         toValue: (((this.props.switchWidth || this.state.sbWidth) / 2) - 6) * dirsign,
-                        duration: this.props.switchSpeedChange || 100
+                        duration: this.props.switchSpeedChange || 100,
+			useNativeDriver: true
                     }
             ).start();
         }
@@ -122,7 +123,8 @@ export default class SwitchButton extends Component {
                 this.state.offsetX,
                     {
                         toValue: 0,
-                        duration: this.props.switchSpeedChange || 100
+                        duration: this.props.switchSpeedChange || 100,
+			useNativeDriver: true
                     }
             ).start();
         }
